@@ -6,9 +6,6 @@ on:
   pull_request:
     branches: ["main", "master"]
 
-env:
-  CODACY_API_TOKEN: ${{ secrets.CODACY_API_TOKEN }}
-
 jobs:
   codacy-security-scan:
     name: Codacy Security Scan
