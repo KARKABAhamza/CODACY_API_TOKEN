@@ -1,0 +1,1 @@
+# CODACY_API_TOKEN
